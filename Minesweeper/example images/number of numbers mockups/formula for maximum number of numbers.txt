@@ -1,0 +1,45 @@
+beginner
+9 * 9 tiles (81)
+10 mines
+
+81 / 9 = 9
+
+9 / 10 can be spaced out evenly
+1 is left
+
+if the game had just 9 mines then the entire board could be 9 mines
+evenly spaced out and every other tile (72 of them) would have the number 1 written in it
+
+since there is actually 1 left there wll be a maximum of 71 (72 - 1) tiles with numbers
+on them if spaced out as evenly as possible
+
+intermediate
+16 * 16 tiles (256)
+40 mines
+
+256 / 9 = 28.444...
+
+28 / 40 can be spaced out evenly
+12 are left
+
+if the game had just 28 mines then the entire board could be 9 mines
+evenly spaced out and every other tile (228 of them) would have the number 1 written in it
+
+since there are actually 12 left there will be a maximum of 216 (228 - 12) tiles with numbers 
+on them if spaced out as evenly as possible
+
+advanced
+16 * 30 tiles (480)
+99 mines
+
+480 / 9 = 53 + 1/3
+
+53 / 99 can be spaced out evenly
+46 are left
+
+if game had just 53 mines then the entire board could be 53 mines
+evenly spaced out and every other tile (427 of them) would have the number 1 written in it
+
+
+since there are actually 46 left there will be a maximum of 381 (427 - 46) tiles with numbers 
+on them if spaced out as evenly as possible

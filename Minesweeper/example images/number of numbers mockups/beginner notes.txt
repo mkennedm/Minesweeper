@@ -1,0 +1,7 @@
+minimum
+
+center-block 18
+corner block  8
+edge-block   12
+
+maximum
