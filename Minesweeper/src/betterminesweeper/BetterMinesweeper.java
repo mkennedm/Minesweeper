@@ -1,6 +1,7 @@
 /* Matthew Kennedy
- * A version of the popular Windows game with a new option to guarantee
- * the player can win without ever needing to guess
+ * mkennedymsm at gmail dot com
+ * mkennedm at bu dot edu
+ * A clone of the popular Windows game written in Java.
  */
 
 package betterminesweeper;
@@ -604,12 +605,6 @@ public class BetterMinesweeper{
                     row = getIndex(name)[0]; 
                     col = getIndex(name)[1];
                     
-                    //TEST BELOW
-                    //System.out.println(events.getMouseClickCount(event));
-                    //System.out.println("pressed");
-                    //System.out.println(totalMines(board));
-                    //TEST ABOVE
-                    
                     if (noneRevealed(board)){
                         time = 1;
                     }
@@ -883,9 +878,6 @@ public class BetterMinesweeper{
     /*returns the total number of mines the tile at the given row and col is touching and stores the locations of 
      * adjacent mines in nearMines*/
     public static int tileSum(int row, int col, Tile [][] board){
-        /*if(board[row][col].isMine){
-         return 9;
-         }*/
         int sum = 0;
         
         if (topLeft(row, col, board)){
@@ -1316,11 +1308,6 @@ public class BetterMinesweeper{
     
     public static boolean goodDoubleClick(int row, int col, Tile [][] board, JButton [][] buttons){
         Tile t = board[row][col];
-        
-        //TEST
-        //System.out.println();
-        //System.out.print(t.toString() + " " + t.pos + " ");
-        //TEST
         
         if (t.pos.equals("middle")){
             for (int r = row - 1; r < row + 2; r++){
