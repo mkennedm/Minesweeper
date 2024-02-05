@@ -1,4 +1,4 @@
-
+# Minesweeper
 ![minesweeper-big](https://github.com/mkennedm/Minesweeper/assets/8769212/19265e48-3caf-468c-9372-1b2f3a2e2991)
 
 I love Minesweeper. There are many versions out there, but the one I've spent the most time playing comes installed on Windows 7 Home Premium. Despite it's glaring design flaw (puzzle games should never require guessing), I keep coming back. It's the only game I have installed on my phone. Bored one summer, I decided to build the game for myself and my love for it grew even stronger.
